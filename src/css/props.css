@@ -3,6 +3,13 @@ body{
   padding: 0px;
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+
 .flex {
   display: flex
 }
@@ -13,4 +20,24 @@ body{
 
 .bl {
   display: block;
+}
+
+.noul {
+  text-decoration: none;
+}
+
+.bl {
+  display: block;
+}
+
+.c333{
+  color: #333
+}
+
+.s15 {
+  font-size: 15px;
+}
+
+.s25 {
+  font-size: 25px;
 }

@@ -6,9 +6,29 @@
   background-color: #ccc
 }
 .sidebar .logo {
-
+display: flex;
 }
 
 .sidebar .logo img {
-  height: 40px
+  height: 40px;
+  margin: auto;
+  padding: 2px
+}
+
+.sidebar .nav {
+  list-style-type: none;
+
+}
+
+.sidebar .nav li {
+
+}
+.sidebar .nav li a {
+ align-items: center;
+}
+.sidebar .nav li a .ico {
+
+}
+.sidebar .nav li a .lbl {
+
 }
