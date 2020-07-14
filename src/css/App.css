@@ -3,7 +3,7 @@
   top: 0px;
   left: 0px;
   bottom: 0px;
-  background-color: #ccc
+  /* background-color: #ccc */
 }
 .sidebar .logo {
 display: flex;
@@ -16,19 +16,33 @@ display: flex;
 }
 
 .sidebar .nav {
-  list-style-type: none;
-
+justify-content: center;
+ padding: 30px 25px
 }
 
 .sidebar .nav li {
-
+padding: 0px;
+margin: 0px
 }
 .sidebar .nav li a {
  align-items: center;
+ padding: 0px 20px;
 }
 .sidebar .nav li a .ico {
-
+ margin-right: 10px;
+ margin-left: 10px
 }
 .sidebar .nav li a .lbl {
 
 }
+
+.sidebar .nav li a.on {
+border-left: 4px #ea5252 solid;
+color: #ea5252;
+line-height: 1px;
+}
+
+.sidebar .updated-course{}
+.sidebar .updated-course .ico{}
+.sidebar .updated-course .lbl{}
+.sidebar .updated-course .lbl .fontb{}

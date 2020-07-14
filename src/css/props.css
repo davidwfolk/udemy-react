@@ -3,12 +3,14 @@ body{
   padding: 0px;
 }
 
-ul {
+ul, ol {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
 
 .flex {
   display: flex
@@ -34,10 +36,26 @@ ul {
   color: #333
 }
 
+.c777 {
+  color: #777
+}
+
 .s15 {
   font-size: 15px;
 }
 
 .s25 {
   font-size: 25px;
+}
+
+.s20 {
+  font-size: 20px;
+}
+
+.s13 {
+  font-size: 13px;
+}
+
+.fontb {
+  font-weight: bold;
 }
