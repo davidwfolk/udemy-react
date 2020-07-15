@@ -34,7 +34,7 @@ navigation.push(
     {navigation}
     </ul>
 
-    <div className="updated-course">
+    <div className="updated-course flex">
       <div className="icon-lamp-bright ico">
         <div className="lbl s15 fontb c333">Updated Courses
           <h2 className="author s13 c777">by Test1</h2>
